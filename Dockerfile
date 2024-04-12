@@ -1,6 +1,6 @@
 # Build the manager binary
 FROM golang:1.20 as builder
-# dummy update
+# again a dummy update
 # Copy in the go src
 WORKDIR /go/src/github.com/kserve/kserve
 COPY go.mod  go.mod
